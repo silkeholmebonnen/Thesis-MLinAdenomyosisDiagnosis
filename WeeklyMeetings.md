@@ -35,7 +35,8 @@
 
 #### What would you like to work on next week?
 
-- Digging into the code
+- Read the 3 papers
+- Get an overview of the code base
 
 #### Where do you need help from Veronika?
 
