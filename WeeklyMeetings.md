@@ -25,7 +25,8 @@
         - Logistic regression classifier
         - They are currently using this vision transformer as the feature extractor: https://arxiv.org/abs/2508.10104
         - They want me to try these two and see how they compare
-            - https://www.sciencedirect.com/science/article/abs/pii/S0957417425038382
+            - https://link.springer.com/article/10.1007/s11548-025-03517-8
+            (not to be confused with [this](https://www.sciencedirect.com/science/article/abs/pii/S0957417425038382) paper that has a similar name )
             - https://www.sciencedirect.com/science/article/pii/S1746809426008670?via%3Dihub
         - Accuracy is currently around 0.6 for most of the MUSA features but one perform better, around 0.8
 
