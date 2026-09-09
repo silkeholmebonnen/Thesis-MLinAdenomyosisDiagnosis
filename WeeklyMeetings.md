@@ -1,7 +1,52 @@
 # Silke's Weekly Meeting Notes
 
+- [10 September 2026](#date-10-september-2026)
 - [1 September 2026](#date-1-september-2026)
 - [Template](#date-template)
+
+## Date: 10 September 2026
+
+#### Who did you help this week?
+
+- N/A
+
+#### Who helped you this week?
+
+- Luisa helped with various questions related to working on gefion
+
+#### What did you achieve?
+
+- Read the USF-MAE and UltraSam papers
+- Added the functionality to extract features using the USF-MAE model
+    - Tried to run the full pipeline using these features which gave higher AUC scores for 3/8 musa features, 1/8 was the same and 4/8 was better with DINOv3
+- Found out that we were slicing in the transversal view, which is most likely not optimal
+    - Plotted some volumes to try to find out which axis corresponds to the sagital view
+    - Extracted features using the sagittal view which is giving better results for some musa features
+
+#### What did you struggle with?
+
+- Gefion shutting down while working
+- Deciding how to make the create the models from the papers (e.g. using timm, mmpretrain or facebook-mae)
+    - I think I will end up using timm for all 3, and load the weights from the paper into the model
+
+#### What would you like to work on next week?
+
+- Add functionality to extract features using the UltraSam model, and test it
+- Experiment more with slicing
+    - Now we use all slices and use mean pooling
+    - When you look at the slices it seems like the middle 3rd is the most relevant, maybe just use this?
+    - Maybe use max pool instead of average?
+    - Maybe use different slicing views at the same time?
+- Try plotting the extracted features using dimensionality reduction
+
+#### Where do you need help from Veronika?
+
+- How directly can I use my research paper in my thesis?
+- Any suggestions related to slicing?
+
+#### Any other topics
+
+- The 23rd works. Do you have time between 13 and 15?
 
 ## Date: 1 September 2026
 
