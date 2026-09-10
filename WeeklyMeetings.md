@@ -50,6 +50,17 @@
 
 - The 23rd works. Do you have time between 13 and 15?
 
+#### Meeting agreements
+
+- Make an external test set that will only be used for testing at the end of the thesis
+    - Add this to the methodology
+- Make a visualization of the setup (train test split, feature extractor models used, classification model ect) that can be added to the thesis
+- Make a github/gitlab repo that will be accesible by Veronika and censor, that is updated regularly
+- Do not use their excisting code, make everything from scratch
+- Do not use the average feature vector of all slices. Have one feature vector per slice that will be input to the classification model
+
+
+
 ## Date: 1 September 2026
 
 #### Who did you help this week?
@@ -167,3 +178,7 @@ This space is yours to add to as needed.
 #### Any other topics
 
 This space is yours to add to as needed.
+
+#### Meeting agreements
+
+- Replace with what you agreed on in the meeting
