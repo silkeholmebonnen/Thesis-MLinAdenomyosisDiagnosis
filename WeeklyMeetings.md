@@ -38,11 +38,13 @@
     - Maybe use max pool instead of average?
     - Maybe use different slicing views at the same time?
 - Try plotting the extracted features using dimensionality reduction
+- Try random forrest
 
 #### Where do you need help from Veronika?
 
 - How directly can I use my research paper in my thesis?
 - Any suggestions related to slicing?
+- Loss in multi label classifier
 
 #### Any other topics
 
