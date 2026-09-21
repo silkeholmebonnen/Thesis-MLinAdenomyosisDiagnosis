@@ -1,8 +1,55 @@
 # Silke's Weekly Meeting Notes
 
+- [22 September 2026](#date-22-september-2026)
 - [10 September 2026](#date-10-september-2026)
 - [1 September 2026](#date-1-september-2026)
 - [Template](#date-template)
+
+## Date: 22 September 2026
+
+#### Who did you help this week?
+
+- N/A
+
+#### Who helped you this week?
+
+- N/A
+
+#### What did you achieve?
+
+- Implemented the ultrasam feature extractor
+- Tried random forrest and logistic regression
+- Slicing in the sagittal view using the 200 middle slices
+- Plotted the result for all volume slices
+- Split the dataset into a development set and a test set
+- Wrote some initial notes for methods section in overleaf
+    - Currently working on a visualization for it
+- Storing posteriers and brier score to metrics section
+
+#### What did you struggle with?
+
+- Plotted the results of random forrest with different max depths, but it did not look as expected + random forrest takes a long time to run
+- How to aggregate the results of each slice into one result for the volume. Now I just use the mean of all the slices, but this might not be the best way?
+
+#### What would you like to work on next week?
+
+- Find better hyperparameters for the classification models
+- Feature extraction -> Slicing
+- Write more on the methods section and finishing the visualization
+- Implement the model based on meta data
+
+#### Where do you need help from Veronika?
+
+- Show plots for results per slices -> whats the best way to aggregate?
+- How to slice when the volumes have different dimensions
+
+#### Any other topics
+
+- N/A
+
+#### Meeting agreements
+
+- Replace with what you agreed on in the meeting
 
 ## Date: 10 September 2026
 
