@@ -49,7 +49,10 @@
 
 #### Meeting agreements
 
-- Replace with what you agreed on in the meeting
+- Make a distance matrix of the postiers from the scans
+    - Visualize using t-ssne
+- Make a plot of number of scans per patient
+- Include variability in the random forest per depth plot (error bar)
 
 ## Date: 10 September 2026
 
