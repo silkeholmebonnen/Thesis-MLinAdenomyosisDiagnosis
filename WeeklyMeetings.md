@@ -1,9 +1,46 @@
 # Silke's Weekly Meeting Notes
 
+- [29 September 2026](#date-29-september-2026)
 - [22 September 2026](#date-22-september-2026)
 - [10 September 2026](#date-10-september-2026)
 - [1 September 2026](#date-1-september-2026)
 - [Template](#date-template)
+
+## Date: 29 September 2026
+
+#### What did you achieve?
+
+- Made distance matrix of posteriers per scan.
+    - Made t-sne plot using the distance matrix
+- Made plots of the mean posteriers of positives, negatives, and plots based on the 10 best and worst performing postives and negatives
+- Made plot of number of scans per patient
+- Included variability in the max depth random forest plot
+- Checked the performance of models trained only on data from one hospital
+    - Hillerød performs worse than Herlev and Hvidovre
+        - I have asked if there is something different about Hillerøds scanning setup
+    - Dev set: 9 scans from Odense, 626 from Hvidovre, 190 from Herlev, 284 from Hillerød
+    - Test set: 0 scans from Odense, 61 from Hvidovre, 23 from Herlev, 38 from Hillerød
+- Tried using 200 slices evenly spread out across the middle 80% of the scan -> did not perform better
+
+#### What did you struggle with?
+
+-
+
+#### What would you like to work on next week?
+
+-
+
+#### Where do you need help from Veronika?
+
+- What should I do with the distance matrix?
+
+#### Any other topics
+
+-
+
+#### Meeting agreements
+
+- Replace with what you agreed on in the meeting
 
 ## Date: 22 September 2026
 
@@ -194,14 +231,6 @@
 This space is yours to add to as needed.
 
 ## Date: Template
-
-#### Who did you help this week?
-
-- Replace this text with a one/two sentence description of who you helped this week and how.
-
-#### Who helped you this week?
-
-- Replace this text with a one/two sentence description of who helped you this week and how.
 
 #### What did you achieve?
 
