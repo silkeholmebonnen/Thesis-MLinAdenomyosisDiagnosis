@@ -21,6 +21,19 @@
     - Dev set: 9 scans from Odense, 626 from Hvidovre, 190 from Herlev, 284 from Hillerød
     - Test set: 0 scans from Odense, 61 from Hvidovre, 23 from Herlev, 38 from Hillerød
 - Tried using 200 slices evenly spread out across the middle 80% of the scan -> did not perform better
+- Tried feature extraction using 2.5D: Did not perform better
+    - Tried 2 different approaches:
+        - The 3 channels being the x,y,z axis -> pad to make 3 slices the same size
+            - Worse performance
+        - The 3 channels being the previous, current, and next slice
+            - Similar performance
+- Made a model using the meta data -> AUC around 0.61
+    - over 600 meta data columns. I excluded IDs and dropped columns with more than 50% nan values, and then used used 20 most correlating column
+    - AUC per musa:
+        - irregular jz: AUC 0.61
+        - globular: AUC 0.62
+        - fan shaped: AUC 0.613
+
 
 #### What did you struggle with?
 
