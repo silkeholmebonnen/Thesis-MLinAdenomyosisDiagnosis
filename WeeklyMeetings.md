@@ -37,19 +37,23 @@
 
 #### What did you struggle with?
 
--
+- What I should do with the distance matrix, other than using the musa label when plotting using tsne
 
 #### What would you like to work on next week?
 
--
+- Plotting extracted features using tsne
+- Maybe:
+    - Try to include the feature extraction models in training
+    - Try different models (e.g. Swin transformer)
 
 #### Where do you need help from Veronika?
 
-- What should I do with the distance matrix?
+- What else should I do with the distance matrix?
+- What do you see as the next steps?
 
 #### Any other topics
 
--
+- N/A
 
 #### Meeting agreements
 
