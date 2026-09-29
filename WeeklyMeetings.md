@@ -53,7 +53,7 @@
 
 #### Any other topics
 
-- N/A
+- I think it is hard to write the introduction again but differently...
 
 #### Meeting agreements
 
