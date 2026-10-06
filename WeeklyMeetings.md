@@ -1,10 +1,56 @@
 # Silke's Weekly Meeting Notes
 
+- [6 October 2026](#date-6-october-2026)
 - [29 September 2026](#date-29-september-2026)
 - [22 September 2026](#date-22-september-2026)
 - [10 September 2026](#date-10-september-2026)
 - [1 September 2026](#date-1-september-2026)
 - [Template](#date-template)
+
+## Date: 6 October 2026
+
+#### What did you achieve?
+
+- Used all features in meta data model -> did not perform better
+- Plotted embedding on val set using tsne on dev set -> true and false labels looks more seperated
+- Plotted tsne using hospital and probe labels
+    - You can see different clusters
+- Plotted distance matrix, but there were too many entries to show something meaningful
+- Extracted features for all slices in all volumes
+    - Made tsne plots of a single volume where each dot is a slice. Labels are every 50 point to see if closer points are more similar
+- They had masks of the uterine cavity for ~100 volumes. I used these masks to check how far the uterus center is from the volume center
+    - Mean percentage absolute offset from middle: 4.25%
+    - Std percentage absolute offset from middle: 2.80%
+    - Max percentage absolute offset from middle: 12.36%
+    - Mean absolute offset from middle: 24.19 voxels
+    - Std absolute offset from middle: 15.86 voxels
+    - Max absolute offset from middle: 70.58 voxels
+- Wrote introduction first draft and writing related work
+- Extracted code and plots from Gefion to this github repo
+
+#### What did you struggle with?
+
+- N/A
+
+#### What would you like to work on next week?
+
+- Write first part of the result section
+- Understand more about the MUSA features and what they look like on the ultrasound scan
+    - I will get help from someone from the Hospital about this
+
+#### Where do you need help from Veronika?
+
+- I have a lot of plots now. Which ones would be the most interesting to show in the report?
+- Should I have a related work section? Or should I just mention my research project in the introduction?
+- Comments in overleaf
+
+#### Any other topics
+
+- N/A
+
+#### Meeting agreements
+
+- Replace with what you agreed on in the meeting
 
 ## Date: 29 September 2026
 
@@ -57,7 +103,11 @@
 
 #### Meeting agreements
 
-- Replace with what you agreed on in the meeting
+- Talk to David and Luisa about next steps
+- Use all features in meta data model
+- Plot embedding on validation set where dev set is used to make tsne embedding
+- Plot tsne using hospital labels
+- Plot distance matrix
 
 ## Date: 22 September 2026
 
