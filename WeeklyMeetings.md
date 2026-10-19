@@ -1,11 +1,49 @@
 # Silke's Weekly Meeting Notes
 
+- [20 October 2026](#date-20-october-2026)
 - [6 October 2026](#date-6-october-2026)
 - [29 September 2026](#date-29-september-2026)
 - [22 September 2026](#date-22-september-2026)
 - [10 September 2026](#date-10-september-2026)
 - [1 September 2026](#date-1-september-2026)
 - [Template](#date-template)
+
+## Date: 20 October 2026
+
+#### What did you achieve?
+
+- Swin transformer feature extractor
+- Neural network attention classification layer (multiple instance learning)
+- Saw an ultrasound scan being performed
+- Talked to a doctor about the MUSA features
+    - Made me think more about why some of the MUSA features are performing better than others at the moment
+        - Global is performing better because it is affecting more of the image. Asymmetrical is not performing as well as expected, maybe because of the lower prevalence (only 11%).
+        - Local MUSA features might be vanished in the feature extraction, both because of image downsizing and because ViT uses fixed 16x16 patch size. I thought swin would perform better because it starts with smaller patches (4x4 pixels) and uses shifted windows, but it has similar performance.
+        - If the local features were not vanished after the feature extraction step, then I would assume that the attention layer would improve the performance, but it does not.
+        - Performance is not increased when using the attention layer for global MUSA features either. This could be either because the features are global so they are present in most slices, when only looking at the middle 200, or because the attention layer does not learn anything valuable. Do you agree with this?
+
+#### What did you struggle with?
+
+- I thought about how to view the hyper parameter problem as a research problem, but I decided to pause this for now since I thought there were more interesting things to explore. Is that okay?
+
+#### What would you like to work on next week?
+
+- Read about small object classification
+- Potentially:
+    - ResNet, 3D and 2D
+    - Hyper parameter tuning
+
+#### Where do you need help from Veronika?
+
+- Any suggestions on research related to small object classification (I don't know if this is the correct term)
+
+#### Any other topics
+
+- Inter annotator agreement is low when they compared 2 annotators. Cohens kappa values between -0.03 and 0.4 for the different MUSA features. The annotations we use is only from one annotator (the annotator with the highest intra annotator agreement), but I think it also shows that it is a difficult thing even for experts to classify
+
+#### Meeting agreements
+
+- Replace with what you agreed on in the meeting
 
 ## Date: 6 October 2026
 
