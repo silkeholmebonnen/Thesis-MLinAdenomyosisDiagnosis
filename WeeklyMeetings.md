@@ -1,5 +1,6 @@
 # Silke's Weekly Meeting Notes
 
+- [3 November 2026](#date-3-november-2026)
 - [20 October 2026](#date-20-october-2026)
 - [6 October 2026](#date-6-october-2026)
 - [29 September 2026](#date-29-september-2026)
@@ -7,6 +8,37 @@
 - [10 September 2026](#date-10-september-2026)
 - [1 September 2026](#date-1-september-2026)
 - [Template](#date-template)
+
+## Date: 3 November 2026
+
+#### What did you achieve?
+
+- Implemented a 3D resnet model pretrained on 23 medical image dataset of MRI and CT scans (MedicalNet)
+    - Overall worse performance than the frozen ViTs
+    - Similar pattern in performance, global features have higher performance than local
+- Report writing
+
+#### What did you struggle with?
+
+- There has been a high load on the gefion computer, so everyone at Hvidovre has hardly been able to run anything, including me. It has been very frustrating.
+
+#### What would you like to work on next week?
+
+- Finetuned ViTs, already started
+- Cleaning up the codebase and exporting it
+
+#### Where do you need help from Veronika?
+
+- A month ish left until I should submit a draft to you. How much new do you think I should start before?
+- When can I start computing the results on the test set? Should I compute it for each model in the cross validation to get the variability in the results?
+
+#### Any other topics
+
+- I am feeling a little "hopeless". I have the feeling that the dataset is just too small to be able to detect the local MUSA features. My last little hope is the fine tuned ViTs, but I will be surprised if it turns out a lot better than the other results.
+
+#### Meeting agreements
+
+- Replace with what you agreed on in the meeting
 
 ## Date: 20 October 2026
 
