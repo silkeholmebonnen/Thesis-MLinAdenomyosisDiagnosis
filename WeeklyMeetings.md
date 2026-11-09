@@ -1,5 +1,6 @@
 # Silke's Weekly Meeting Notes
 
+- [10 November 2026](#date-10-november-2026)
 - [3 November 2026](#date-3-november-2026)
 - [20 October 2026](#date-20-october-2026)
 - [6 October 2026](#date-6-october-2026)
@@ -8,6 +9,38 @@
 - [10 September 2026](#date-10-september-2026)
 - [1 September 2026](#date-1-september-2026)
 - [Template](#date-template)
+
+## Date: 10 November 2026
+
+#### What did you achieve?
+
+- Made visualization of impact of training dataset size on performance
+    - Performance decrease with when training set size decrease for globular, but is more steady for fan shaped
+- Made an updated visualization of my frozen feature extraction classification pipeline (you can see it in overleaf)
+    - Should I also make one for 3D resnet? I feel like it is so straight forward that it does not make sense.
+- Tried to get an overview of my results and the best way to structure them and visualize them
+
+#### What did you struggle with?
+
+- How to structure the results.
+    - Which results should be included? Some "initial experimental results" of number of slices, 2.5D, slicing axis, that I only have run for 2 MUSA features (irregular jz, and globular), and then the "final results" that compare 3D resnet to frozen vision transformers for all MUSA features and vision transformers.
+
+#### What would you like to work on next week?
+
+- Writing results section
+
+#### Where do you need help from Veronika?
+
+- How would you suggest that I structure my results?
+- How would you suggest that I present my results? Table? Visualizations?
+
+#### Any other topics
+
+- In my meeting with David and Luisa we talked about other ways to check that the noise to signal ratio is a problem for the local MUSA features. David suggested to get a estimated segmentation of the uterus by blowing up the uterine cavity segmentation that they have, to decrease the noise in the scan. However I don't feel like this is something I should prioritize right now because of the limited time.
+
+#### Meeting agreements
+
+- Replace with what you agreed on in the meeting
 
 ## Date: 3 November 2026
 
